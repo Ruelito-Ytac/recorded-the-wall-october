@@ -1,0 +1,73 @@
+/* COLOR */
+/* FONT */
+#sign_wrapper {
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 632px;
+  padding: 40px;
+  width: 592px;
+}
+#sign_wrapper h1 {
+  margin: 0 auto 17px;
+}
+#sign_wrapper .sign_block {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sign_wrapper .sign_block h2 {
+  color: #505561;
+  font: 700 24px/28px Verdana, Geneva, Tahoma, sans-serif;
+}
+#sign_wrapper .sign_block p {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #B5B5B5;
+  font: 16px/20px Verdana, Geneva, Tahoma, sans-serif;
+}
+#sign_wrapper .sign_block p span {
+  color: #61C4E8;
+  cursor: pointer;
+  font: 16px/20px Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 3px;
+}
+#sign_wrapper .sign_block form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 100%;
+}
+#sign_wrapper .sign_block form input {
+  border-bottom: 1px solid #61C4E8;
+  color: #505561;
+  font: 20px/24px Verdana, Geneva, Tahoma, sans-serif;
+  height: 45px;
+  margin-bottom: 24px;
+}
+#sign_wrapper .sign_block form input::placeholder {
+  color: #B5B5B5;
+}
+#sign_wrapper .sign_block form button {
+  background: #61C4E8;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font: 700 16px/20px Verdana, Geneva, Tahoma, sans-serif;
+  height: 48px;
+  margin: 22px 0 0 auto;
+  width: 199px;
+}
+@media screen and (max-width: 719px) {
+  #sign_wrapper {
+    max-width: 592px;
+    width: 100%;
+    margin: 0 30px;
+  }
+  #sign_wrapper .sign_block p {
+    margin: 20px auto 0 0;
+    width: 100%;
+  }
+}
